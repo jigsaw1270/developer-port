@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.header{
+    background: #FFF8F3;
+    background-image: url('/images/header_bg.png'), url('/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right , left;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 51px 200px;
+}
+h2{
+    margin-left: -100px;
+}
+
+.btn-primary{
+    height: 64px;
+    background: #FD6E0A;
+border-radius: 5px;
+color: #FFFFFF;
+border: 0;
+padding: 18px 35px;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+}
+
+.nav-tittle{
+   
+width: 121px;
+height: 61px;
+left: 226px;
+top: 51px;
+
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 45px;
+line-height: 61px;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+.customr{
+    color: #FD6E0A;
+}
+/* banner styles */
+.banner{
+    margin: 0 75px 0 110px;
+    display: flex;
+    align-items: center;
+}
+.banner-intro{
+    font-weight: 600;
+font-size: 45px;
+color: #474747;
+}
+.banner-tittle{
+    font-weight: 700;
+font-size: 85px;
+color: #181818;
+margin-bottom: 20px;
+}
+.banner-des{
+    font-weight: 400; 
+    /* default font weight */
+font-size: 18px;
+/* default font size */
+color: #757575;
+margin-bottom: 30px;
+
+}
+main{
+    max-width: 874px;
+    margin: 0 auto;
+}
+/* about section style */
+ .abouts{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 170px;
+    text-align: center;
+ }
+ .section-tittle{
+    
+    margin-bottom: 30px;
+    font-weight: 700;
+font-size: 35px;
+
+ }
+.section-description{
+    font-size: 18;
+    color: #757575;
+    margin-bottom: 30px;
+
+}
+tr{
+    margin-left: 50px;
+}
+table{ 
+    
+    display: flex;
+   justify-content: space-between;
+}
+.aboutinfocontainer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.infotittle{
+    color: #757575;
+    font-size: 20px;
+}
+.info{
+    font-weight: 700;
+}
