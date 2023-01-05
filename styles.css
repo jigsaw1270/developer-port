@@ -94,7 +94,7 @@ main{
     text-align: center;
  }
  .section-tittle{
-    
+    text-align: center;
     margin-bottom: 30px;
     font-weight: 700;
 font-size: 35px;
@@ -125,4 +125,89 @@ table{
 }
 .info{
     font-weight: 700;
+}
+.section-tittle{
+    margin-top: 130px;
+    margin-bottom: 170px;
+    
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    
+}
+.skills{
+   
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+   
+}
+.skill-tittle{
+    font-size: 20;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-dedscription{
+    font-weight: 400;
+font-size: 16px;
+color: #757575;
+}
+/* resume */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume .tittle{font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    
+}
+.resume .subtittle{
+    font-weight: 600;
+font-size: 20px;
+color: #757575;
+    
+}
+.resume .description{
+    font-weight: 400;
+font-size: 16px;
+color: #757575;
+    
+}
+.resumeitem{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-button{
+    margin-top: 60px;
+    text-align: center;
+}
+/* contract styles */
+.contract{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contract .section-tittle{
+    text-align: left;
+}
+.contract-des{
+    font-weight: 400;
+font-size: 16px;
+}
+.contract input[type="text"],input[type="email"], textarea{
+    margin: 24px;
+   padding: 18px 30px;
+   width: 100%;
+   border:0;
+}
+p{
+    margin-bottom: 30px;
+}
+.contract a{
+    text-decoration: none;
 }
